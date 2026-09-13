@@ -20,6 +20,9 @@
   remains untracked.
 - Live funds, credentials, and production endpoints require a separate human
   checkpoint and are outside this starter's default path.
+- `main` is protected by a GitHub ruleset: changes land only through a pull
+  request with the `verify (20)` and `verify (22)` checks green and every review thread resolved.
+  No direct pushes, force-pushes, or branch deletion.
 
 ## Work Guidance
 
